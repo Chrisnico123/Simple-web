@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.detail {
+  position: relative;
+  width: 80%;
+  background-color: bisque;
+}
+header img {
+  object-fit: cover;
+  object-position: 0% 70%;
+}
+nav {
+  background-color: black;
+  height: 3rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 0px;
+}
+header nav li {
+  display: inline;
+  margin: 4rem;
+  font-size: larger;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+#content {
+  flex-grow: 3;
+  width: 75%;
+  text-align: justify;
+}
+article {
+  box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  margin: 20px;
+  padding: 20px;
+}
+.orang {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.satu,
+.dua {
+  width: 400px;
+  height: 200px;
+  background-color: bisque;
+  margin: 0 auto;
+}
+.satu {
+  display: flex;
+}
+.dua {
+  display: flex;
+}
+
+aside {
+  flex-grow: 1;
+  background-color: bisque;
+  width: 25%;
+  box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  margin: 20px;
+  padding: 20px;
+}
+.satu button {
+  height: 40px;
+  width: 100px;
+  margin-left: 120px;
+  margin-top: 120px;
+}
+.dua button {
+  height: 40px;
+  width: 100px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+footer {
+  text-align: center;
+  color: black;
+  background-color: bisque;
+  height: 50px;
+  padding-top: 20px;
+}
+aside img {
+  display: block;
+  margin: 0 auto;
+}
+aside h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 1200px) {
+  .orang {
+    flex-direction: column;
+  }
+  .satu,
+  .dua {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .satu,
+  .dua {
+    width: 100%;
+  }
+  #content {
+    width: 100%;
+  }
+  main {
+    flex-direction: column;
+  }
+  aside {
+    width: 90%;
+  }
+  .btn > button {
+    justify-content: flex-end;
+  }
+  .btn {
+    display: flex;
+  }
+}
+@media screen and (max-width: 620px) {
+  aside {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 540px) {
+  aside {
+    width: 85%;
+  }
+  header img {
+    object-fit: cover;
+    object-position: 50% 70%;
+  }
+  header nav li {
+    margin: 1rem;
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 375px) {
+  .dua img {
+    height: 150px;
+  }
+  .satu img {
+    height: 150px;
+  }
+  .btn button {
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  .dua .btn button {
+    margin-left: 40px;
+  }
+  .satu,
+  .dua {
+    margin: 0px;
+    font-size: 10px;
+    height: 150px;
+    margin-top: 40px;
+  }
+  aside {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .dua img {
+    height: 150px;
+  }
+  .satu img {
+    height: 150px;
+  }
+  .btn button {
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  .dua .btn button {
+    margin-left: 40px;
+  }
+  .satu,
+  .dua {
+    margin: 0px;
+    font-size: 10px;
+    height: 150px;
+    margin-top: 40px;
+  }
+  aside {
+    width: 80%;
+  }
+}
