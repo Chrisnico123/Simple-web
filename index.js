@@ -1,5 +1,5 @@
 function detail() {
-  document.getElementById("btn1").addEventListener("click", () => {
+  document.getElementById("btn1").addEventListener("submit", () => {
     detail = document.getElementById("detail");
     if (detail.hidden == true) {
       detail.hidden = false;
@@ -11,7 +11,7 @@ function detail() {
   });
 }
 function detail1() {
-  document.getElementById("btn2").addEventListener("click", () => {
+  document.getElementById("btn2").addEventListener("submit", () => {
     detail = document.getElementById("detail1");
     if (detail.hidden == true) {
       detail.hidden = false;
