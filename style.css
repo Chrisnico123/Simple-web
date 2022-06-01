@@ -2,11 +2,27 @@
   margin: 0px;
   padding: 0px;
 }
-.detail {
-  position: relative;
+#detail {
+  position: absolute;
   width: 80%;
   background-color: bisque;
+  margin-left: 10%;
+  padding: 20px;
+  box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
 }
+#detail1 {
+  position: absolute;
+  width: 80%;
+  background-color: bisque;
+  margin-left: 10%;
+  padding: 20px;
+  box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 15px 8px 30px 2px rgba(0, 0, 0, 0.47);
+}
+
 header img {
   object-fit: cover;
   object-position: 0% 70%;
